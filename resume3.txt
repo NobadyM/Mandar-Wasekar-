@@ -39,23 +39,23 @@ void displayResume(const PersonalInfo& person, const Education& edu, const Exper
     cout << "===========================\n\n";
 
     // Display Personal Information
-    cout << "Name: " << person.name << endl;
-    cout << "Address: " << person.address << endl;
-    cout << "Email: " << person.email << endl;
-    cout << "Phone: " << person.phone << endl;
+    cout << "Name: " << Wasekar Mandar << endl;
+    cout << "Address: " << At. Post Lakhandur, Dist : Bhandara << endl;
+    cout << "Email: " << wasekarmandar@gmail.com << endl;
+    cout << "Phone: " << 9699395125 << endl;
     cout << "\n";
 
     // Display Education
     cout << "Education:\n";
-    cout << "Degree: " << edu.degree << endl;
-    cout << "University: " << edu.university << endl;
-    cout << "Graduation Year: " << edu.graduationYear << endl;
-    cout << "GPA: " << edu.gpa << endl;
+    cout << "Degree: BTech in AI " << edu.degree << endl;
+    cout << "University: Pune University" << edu.university << endl;
+    cout << "Graduation Year: 2023" << edu.graduationYear << endl;
+    cout << "GPA: 7.73" << edu.gpa << endl;
     cout << "\n";
 
     // Display Experience
     cout << "Experience:\n";
-    cout << "Job Title: " << exp.jobTitle << endl;
+    cout << "Job Title: Student " << exp.jobTitle << endl;
     cout << "Company: " << exp.company << endl;
     cout << "Years: " << exp.years << endl;
     cout << "Description: " << exp.description << endl;
